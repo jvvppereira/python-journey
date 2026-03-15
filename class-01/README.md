@@ -24,9 +24,9 @@ The automation is implemented using **Python**, **PyAutoGUI**, and
 # 📂 Project Structure
 ```
 .
-├── script.py \# Main automation script\
-├── get-position.py \# Utility to capture mouse coordinates\
-├── products.csv \# Dataset containing products to register\
+├── script.py        # Main automation script
+├── get-position.py  # Utility to capture mouse coordinates
+├── products.csv     # Dataset containing products to register
 └── README.md
 ```
 ------------------------------------------------------------------------
