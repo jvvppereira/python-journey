@@ -2,6 +2,8 @@
 
 A Streamlit-based sales management application with data persistence and interactive dashboard.
 
+**Live Demo**: https://python-journey-sales-dashboard.streamlit.app/
+
 ## Features
 
 - **Sales Registration**: Add new sales via sidebar form (date, salesperson, product, quantity, value)
