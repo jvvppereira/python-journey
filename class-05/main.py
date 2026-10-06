@@ -13,6 +13,7 @@ import plotly.express as px
 st.write("# Sales system")
 
 table = pd.read_csv("sales.csv")
+table["date"] = table["date"].astype(str)
 
 # Step 2: Create registration form
 st.sidebar.write("## Register sale")
@@ -32,7 +33,9 @@ if button:
 
 # Step 4: Display database on screen
 st.write("## Registered sales")
-st.dataframe(table)
+display_table = table.copy()
+display_table["date"] = display_table["date"].astype(str)
+st.dataframe(display_table)
 
 # Step 5: Create dashboard
 st.write("## Dashboard")
