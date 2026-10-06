@@ -64,6 +64,18 @@ Topics covered:
 
 ---
 
+## 5️⃣ Python Web Apps
+
+Focus on **building interactive web applications with Streamlit**.
+
+Topics covered:
+
+* Building data-driven web apps
+* Interactive dashboards and visualizations
+* Form handling and data persistence
+* Real-time charts with Plotly
+* CSV-based data storage
+
 # 📁 Repository Structure
 
 Each class is implemented in its own folder:
@@ -73,7 +85,8 @@ python-journey/
 ├── class-01/
 ├── class-02/
 ├── class-03/
-└── class-04/
+├── class-04/
+└── class-05/
 ```
 
 Each folder contains:
