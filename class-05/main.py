@@ -5,7 +5,6 @@
     # Step 4: Display database on screen
     # Step 5: Create dashboard with charts
 
-import os
 from pathlib import Path
 import streamlit as st
 import pandas as pd
@@ -14,11 +13,8 @@ import plotly.express as px
 # Step 1: Create system screen
 st.write("# Sales system")
 
-st.write("CWD:", os.getcwd())
-st.write("Pasta do main.py:", Path(__file__).resolve().parent)
-st.write("Arquivos na pasta do main.py:", os.listdir(Path(__file__).resolve().parent))
-
-table = pd.read_csv("sales.csv")
+BASE_DIR = Path(__file__).resolve().parent
+table = pd.read_csv(BASE_DIR / "sales.csv")
 table["date"] = table["date"].astype(str)
 
 # Step 2: Create registration form
